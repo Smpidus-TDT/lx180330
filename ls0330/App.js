@@ -25,10 +25,10 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          20180330 17:40:00
+          20180330 17:44:00
         </Text>
         <Text style={styles.instructions}>
-          hello world beautiful
+          周五了该休息了
         </Text>
         <Text style={styles.instructions}>
           {instructions}
@@ -54,5 +54,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+	fontSize: 30,
   },
 });
